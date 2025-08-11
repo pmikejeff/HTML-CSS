@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupin tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: lightgray;
+            color: white;
+            padding: 10px 0;
+            margin: 10px;
+            text-align: center;
+            box-shadow: black;
+        }
+        main {
+            padding: 20px;
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 33px;
+        }
+        article {
+            margin-bottom: 20px;
+            background-color: lightgray ;
+            border-radius: 33px;
+            text-align: center;
+            
+        }
+        article > aside {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-left: 5px solid #333;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: lightgray;
+            padding: 5px 0;
+            text-decoration: none;
+            font: white;
+            font-weight: bold;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        
+
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0px 0;
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+                <h1 id="titulo">Meu site</h1>
+            </div>
+            <div>
+                <nav>
+                    <a id="home" href="#home">Início</a>
+                    <a id="sobre" href="#sobre">Sobre</a>
+                    <a id="contato" href="#contato">Contato</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 id="noticias">Notícias</h2>
+                <p>Esta é a seção de notícias do meu site.</p>
+                <aside>
+                    <p>artigo escrito por amora</p>
+                </aside>
+
+                </h2>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
